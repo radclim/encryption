@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vigenère Cipher Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Vigenère Cipher Encrypter/Decrypter</h2>
+      <div class="input-group">
+        <label for="plaintext">Plaintext:</label>
+        <input type="text" id="plaintext" placeholder="Enter text here" />
+      </div>
+      <div class="input-group">
+        <label for="key">Key:</label>
+        <input type="text" id="key" placeholder="Enter key" />
+      </div>
+      <button id="encrypt">Encrypt</button>
+      <button id="decrypt">Decrypt</button>
+      <div class="output-group">
+        <label for="encrypted">Encrypted Text:</label>
+        <textarea id="encrypted" readonly></textarea>
+      </div>
+      <div class="output-group">
+        <label for="decrypted">Decrypted Text:</label>
+        <textarea id="decrypted" readonly></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
